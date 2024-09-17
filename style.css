@@ -5,7 +5,7 @@
 }
 
 .Header {
-  background-color: #1f2937;
+  background-color: rgb(0, 0, 0);
 }
 
 .Header-top {
@@ -36,6 +36,7 @@ a {
 }
 
 .Header-body {
+  gap: 20px;
   display: flex;
   margin-right: 400px;
   margin-left: 400px;
@@ -76,6 +77,7 @@ a {
 .body-image {
   height: 300px;
   width: 600px;
+  border-radius: 12px;
 }
 
 .section2 {
@@ -89,25 +91,56 @@ a {
   font-size: 36px;
   padding: 50px;
 }
+.section2 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 130px;
+}
 
 .boxe-cards {
   display: flex;
   flex-flow: row;
   justify-content: center;
   gap: 60px;
+  flex-wrap: wrap; /* This will allow the boxes to wrap neatly if the screen size changes */
 }
-.cards {
+
+.boxs {
   display: flex;
   flex-flow: column;
-  height: 170px;
-  width: 170px;
+  justify-content: center;
+  align-items: center; /* Centers content horizontally */
+  height: 300px; /* Adjusted for better spacing */
+  width: 200px;
   border-radius: 12px;
   border: 3px solid #3882f6;
+  padding: 20px;
+  margin-bottom: 12px;
+  background-color: #f3f4f6; /* Optional: background color for the boxes */
+}
+
+.cards {
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 220px;
+  background-color: #e5e6eb; /* Placeholder for illustration/image */
   margin-bottom: 12px;
 }
-p {
+.Rick-Crymes {
+  height: 200px;
+  width: 220px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.section-text p {
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
+  color: #1f2937;
+  line-height: 1.4;
 }
 
 .Quote-section {
@@ -149,6 +182,12 @@ p {
   border-radius: 12px;
   background-color: #3882f6;
 }
+.Sleft {
+  display: flex;
+  flex-flow: column;
+  gap: 12px;
+  margin-right: 200px;
+}
 .signup-title {
   font-size: 24px;
   color: white;
@@ -185,4 +224,15 @@ p {
   font-size: 18px;
   color: #e5e6eb;
   padding: 40px;
+}
+
+.Sleft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.negan {
+  height: 130px;
+  border-radius: 12px;
+  border: 2px solid rgb(73, 188, 255);
 }
