@@ -1,14 +1,13 @@
-Landing Page Project
-Overview
-This project is part of the Odin Project curriculum. It's a continuation of the journey I started with the Odin Recipes project, which helped me solidify my understanding of HTML. Now, I'm delving deeper into CSS by building a landing page that will challenge me to apply design principles, flexbox, and layout techniques.
+# Landing Page Project
 
-Odin Recipes Project
-In my previous project, Odin Recipes, I created a simple webpage with multiple recipe pages. It was an exciting and fulfilling project that helped me grasp the fundamentals of HTML, linking between pages, and structuring content. The journey through that project fueled my passion for web development and solidified my dedication to the path of becoming a full-stack developer.
+This is part of The Odin Project curriculum. Building on the Odin Recipes project, I'm now diving into CSS by creating a landing page. This project focuses on:
 
-Current Project: Landing Page
-Now, I am thrilled to move onto the Landing Page project. This project will focus on:
+- CSS Flexbox for responsive design
+- Advanced CSS styling
+- Structuring a professional-looking page
 
-Implementing CSS Flexbox for responsive design
-Styling elements using advanced CSS properties
-Structuring a professional-looking landing page
-This is a step further into mastering front-end development, and I am passionate about building a solid foundation in CSS.
+## Live Demo
+
+Check out the live version [here](https://kabeer100xdev.github.io/Landing-page/)
+
+Feel free to explore and provide feedback!
